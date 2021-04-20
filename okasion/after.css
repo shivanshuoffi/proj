@@ -1,0 +1,93 @@
+﻿/* general styles */
+
+
+/* padded section */
+.pad-section {
+    padding: 50px 0;
+}
+
+.pad-section img {
+    width: 100%;
+}
+
+/* vertical-centered text */
+.text-vcenter {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.text-vcenter h1 {
+    font-size: 4.5em;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+}
+
+/* additional sections */
+#home {
+    background: url(https://images.unsplash.com/photo-1441716844725-09cedc13a4e7?ixlib=rb-0.3.5&q=80&fm=jpg&w=1080&fit=max&s=740bfa7ed6ec67a723383462668c70c3) no-repeat center center fixed;
+    display: table;
+    height: 100%;
+    position: relative;
+    width: 100%;
+    color:white;
+    
+    background-size: cover;
+    
+}
+
+#services {
+    background: url(https://images.unsplash.com/photo-1445964047600-cdbdb873673d?ixlib=rb-0.3.5&q=80&fm=jpg&w=1080&fit=max&s=4095108ad20979bc2f6522caa3c9eaab) no-repeat center center fixed;
+    color: #ffffff;
+    background-size:cover;
+    opacity:0.7;
+}
+
+#services .glyphicon {
+    border: 2px solid #FFFFFF;
+    border-radius: 50%;
+    display: inline-block;
+    font-size: 60px;
+    height: 140px;
+    line-height: 140px;
+    text-align: center;
+    vertical-align: middle;
+    width: 140px;
+}
+#information {
+    background: url(https://images.unsplash.com/photo-1445964047600-cdbdb873673d?ixlib=rb-0.3.5&q=80&fm=jpg&w=1080&fit=max&s=4095108ad20979bc2f6522caa3c9eaab) no-repeat center center fixed;
+    color: #ffffff;
+    background-size:cover;
+    opacity:0.7;
+    
+}
+#information .fab {
+    border: 2px ;
+    border-radius: 50%;
+    display: inline-block;
+    font-size: 60px;
+    height: 140px;
+    line-height: 140px;
+    text-align: center;
+    vertical-align: middle;
+    width: 140px;
+   
+}
+#bton
+{
+    color:white;
+}
+
+
+
+
+
+#footr {
+    background: url(https://images.unsplash.com/photo-1436367050586-7c605120bf73?ixlib=rb-0.3.5&q=80&fm=jpg&w=1080&fit=max&s=882c8bb11ec661aed0b80f2343067841) no-repeat center center fixed;
+    display: table;
+    height: 25%;
+    position: relative;
+    width: 100%; 
+    background-size: cover;
+}
